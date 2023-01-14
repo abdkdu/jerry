@@ -150,7 +150,7 @@ Hei, Need Help!!
 '''
 try:
     help = telegraph.create_page(
-        title='AK IMAX-Mirror Help',
+        title='AK-Mirror Help',
         content=help_string_telegraph,
     )["path"]
 except Exception as err:

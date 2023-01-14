@@ -551,8 +551,8 @@ try:
     if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:
         raise KeyError
 except:
-    START_BTN1_NAME = 'Repo'
-    START_BTN1_URL = 'https://github.com/arshsisodiya/helios-mirror'
+    START_BTN1_NAME = 'Main Channel'
+    START_BTN1_URL = 'https://t.me/akimaxmovies'
 
 try:
     START_BTN2_NAME = getConfig('START_BTN2_NAME')
